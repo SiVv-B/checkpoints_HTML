@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint HTML</title>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+           
+            <a href="#about"><li>About</li></a>
+            <a href="#work"><li>Work</li></a>
+            <a href="#resume">  <li>Resume</li></a>
+            <a href="#contact"><li>Contact</li></a>   
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About us</h2>
+        <table>
+            <tr>
+                <td> <b>Name</b></td>
+                <td>Siwar</td>
+            </tr>
+            <tr>
+                <td><b>Last name</b></td>
+                <td>Belkhir</td>
+            </tr>
+            <tr>
+                <td><b>Email</b></td>
+                <td>siwar.blk@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="work">
+        <h2>Our Work</h2>
+        <div id="audio">
+            <!-- l'audio ne marche pas avec le lien--> 
+            <audio title="Lofi" preload="auto" controls loop>
+                <source src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308945708&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" type="audio/mpeg">
+            </audio>
+
+             <!-- autre tentative pour que l'audio marche--> 
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308945708&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/katnyx" title="katnyx" target="_blank" style="color: #cccccc; text-decoration: none;">katnyx</a> · <a href="https://soundcloud.com/katnyx/driver-moonglow" title="driver - moonglow" target="_blank" style="color: #cccccc; text-decoration: none;">driver - moonglow</a>
+            </div>  
+            <br/><br/>
+
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/boah9hNHhi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+    </section>
+
+    <section id="contact">
+        <h2>Contact us</h2>
+        <form>
+            <label for="name">Name</label>  <br/>
+            <input type="text" name="name"/>    <br/><br/>
+            <label for="secondName">Second Name</label> <br/>
+            <input type="text" name="secondName"/>  <br/><br/>
+            <label for="phoneNumber">Phone Number</label>   <br/>
+            <input type="number" name="phoneNumber"/>    <br/><br/>
+            <label for="email">Email</label>    <br/>
+            <input type="email" name="email"/>  <br/><br/>
+            <label for="message">Your message</label>   <br/>
+            <textarea name="message" cols="30" rows="10"></textarea>
+        </form>
+    </section>
+
+    <footer>
+        <dl>
+            <dt><b>To visit our local</b></dt>
+            <dd> 99 rue Gomycode. <br/> 9999- Univer city</dd>
+        </dl>
+    </footer>
+
+</body>
+</html>
